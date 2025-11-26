@@ -2,112 +2,157 @@
 <html lang="th">
 <head>
   <meta charset="UTF-8">
-  <title>แนะนำตัวนักศึกษา</title>
+  <title>Portfolio – สิริสกุล คงคะรัศมี</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
       margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(135deg, #dff9fb, #c7ecee);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
+      padding: 20px;
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(135deg, #ffe6ef, #ffd6e8);
     }
 
     .card {
-      background: white;
-      border-radius: 20px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-      max-width: 500px;
+      background: #ffffff;
+      border-radius: 22px;
+      box-shadow: 0 8px 25px rgba(255, 140, 170, 0.25);
+      max-width: 700px;
+      margin: auto;
       padding: 30px;
+      border: 2px solid #ffbcd4;
+    }
+
+    .profile {
       text-align: center;
     }
 
-    .card img {
+    .profile img {
       width: 150px;
       height: 150px;
       object-fit: cover;
       border-radius: 50%;
-      border: 4px solid #00b894;
+      border: 5px solid #ff99c8;
       margin-bottom: 20px;
     }
 
-    h1 {
-      font-size: 26px;
-      color: #2d3436;
-      margin-bottom: 10px;
+    h1, h2 {
+      color: #d63384;
+      text-align: center;
     }
 
     h2 {
-      font-size: 18px;
-      color: #636e72;
-      margin-bottom: 20px;
+      margin-top: 30px;
+      border-left: 5px solid #ff8fb1;
+      padding-left: 10px;
+      text-align: left;
     }
 
-    p {
-      font-size: 16px;
+    p, li {
       color: #444;
+      font-size: 16px;
       line-height: 1.6;
     }
 
     ul {
-      list-style: none;
-      padding: 0;
+      padding-left: 20px;
     }
 
-    ul li {
-      margin: 5px 0;
-    }
-
-    a {
-      color: #0984e3;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
+    /* ปุ่มลิงก์ */
     .links {
-      margin-top: 20px;
+      text-align: center;
+      margin-top: 15px;
     }
 
     .links a {
-      margin: 0 10px;
-      padding: 8px 16px;
-      background-color: #00b894;
+      background: #ff8fb1;
       color: white;
-      border-radius: 10px;
+      padding: 10px 18px;
+      margin: 0 8px;
+      border-radius: 12px;
       text-decoration: none;
       font-weight: bold;
-      transition: background 0.3s;
+      display: inline-block;
+      transition: 0.3s;
+      box-shadow: 0px 4px 10px rgba(255, 125, 160, 0.3);
     }
 
     .links a:hover {
-      background-color: #019875;
+      background: #ff6b98;
+      transform: translateY(-2px);
     }
   </style>
 </head>
+
 <body>
- 
+
   <div class="card">
-    <img src="62295.jpg">
 
+    <!-- Profile Section -->
+    <div class="profile">
+      <img src="62295.jpg" alt="Profile">
+      <h1>สิริสกุล คงคะรัศมี</h1>
+      <p><strong>รหัสนักศึกษา:</strong> 67040233103</p>
+      <p><strong>ชั้นปี:</strong> ปีที่ 2</p>
+      <p><strong>คณะ:</strong> วิทยาศาสตร์</p>
+      <p><strong>สาขา:</strong> เทคโนโลยีสารสนเทศ (IT)</p>
+    </div>
 
-  <p><strong>ชื่อ:</strong>  นางสาวสิริสกุล คงคะรัศมี</p>
-  <p><strong>รหัสนักศึกษา:</strong> 67040233103</p>
-  <p><strong>ชั้นปี:</strong> ปีที่ 2</p>
-  <p><strong>คณะ:</strong> วิทยาศาสตร์</p>
-  <p><strong>สาขา:</strong> IT</p>
+    <!-- Introduction -->
+    <h2>1. แนะนำตัว (Introduction)</h2>
+    <p>
+      สวัสดีค่ะ ฉันชื่อสิริสกุล นักศึกษาชั้นปีที่ 2 สาขาเทคโนโลยีสารสนเทศ  
+      สนใจงานสายพัฒนาเว็บไซต์ ออกแบบ UI/UX และทักษะด้านดิจิทัล  
+      ตั้งใจพัฒนาความรู้ด้าน Programming เพื่อเตรียมตัวสู่สายอาชีพ IT ในอนาคตค่ะ 🌸
+    </p>
 
+    <!-- Skills -->
+    <h2>2. ทักษะ (Skills)</h2>
+    <ul>
+      <li>Programming: HTML, CSS, JavaScript, Python</li>
+      <li>Tools: GitHub, VS Code, Figma</li>
+      <li>Soft Skills: การสื่อสาร, ทำงานเป็นทีม, การแก้ปัญหา</li>
+    </ul>
 
-   <div class="links">
+    <!-- Projects -->
+    <h2>3. ผลงาน (Projects)</h2>
+    <ul>
+      <li>เว็บไซต์แนะนำตัวด้วย HTML / CSS</li>
+      <li>โปรเจกต์ Web Mini สำหรับการเรียน</li>
+      <li>Dashboard ข้อมูลพื้นฐาน (กำลังทำ)</li>
+    </ul>
+
+    <!-- Education -->
+    <h2>4. การศึกษา (Education)</h2>
+    <p>
+      กำลังศึกษาที่: มหาวิทยาลัยราชภัฏอุดรธานี  
+      คณะวิทยาศาสตร์ สาขาเทคโนโลยีสารสนเทศ (2566 – ปัจจุบัน)
+    </p>
+
+    <!-- Activities -->
+    <h2>5. กิจกรรม และผลงานอื่น ๆ (Activities)</h2>
+    <ul>
+      <li>อบรม “AI for Beginners”</li>
+      <li>เข้าร่วมกิจกรรม UDRU Hackathon</li>
+    </ul>
+
+    <!-- Contact -->
+    <h2>6. ติดต่อ (Contact)</h2>
+    <p>Email: sirisakun67040233103@gmail.com</p>
+
+    <div class="links">
       <a href="https://www.facebook.com/share/1ARakaUgce/" target="_blank">Facebook</a>
-      <a href="https://www.instagram.com/wenli._.0?igsh=ZzcwMGdoZmU5N2Zn" target="_blank">Instagram</a>
+      <a href="https://www.instagram.com/wenli._.0" target="_blank">Instagram</a>
       <a href="https://github.com/Wa-542" target="_blank">GitHub</a>
     </div>
+
+    <!-- Future Goal -->
+    <h2>7. เป้าหมาย (Career Interest)</h2>
+    <p>
+      สนใจงานด้าน Web Developer, Front-end, ออกแบบ UX/UI  
+      และสายงานดิจิทัล เพื่อเตรียมความพร้อมสู่อนาคตในวงการ IT 💗
+    </p>
+
   </div>
 
 </body>
